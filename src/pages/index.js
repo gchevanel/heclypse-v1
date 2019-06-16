@@ -18,6 +18,8 @@ const IndexPage = () => (
       data-netlify-honeypot="bot-field"
     >
       <input name="name" placeholder="Your Name" type="text" />
+      <input name="email" placeholder="Email" type="text" />
+      <input name="CAR" placeholder="car" type="text" />
       <button>Send</button>
     </form>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
